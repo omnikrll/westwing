@@ -1,0 +1,36 @@
+* {
+	box-sizing: border-box;
+}
+
+.hidden {
+	display: none;
+}
+
+.question-container {
+	z-index: 100;
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+.question-container-form {
+	position: relative;
+	width: 33%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: white;
+	border-radius: 6px;
+	text-align: center;
+}
+
+.question-container-form .title {
+	font-size: 36px;
+}
+
+.question-container-form ul {
+	font-size: 16px;
+}
